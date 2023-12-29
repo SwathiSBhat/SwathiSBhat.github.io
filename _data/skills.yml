@@ -1,30 +1,23 @@
 languages:
-  - item: JavaScript (ES6)
+  - item: C/C++
   - item: TypeScript
-  - item: HTML
-  - item: CSS/Sass
   - item: Python
-  - item: SQL
-  - item: R
+  - item: C#
+  - item: T-SQL
 
 frameworks:
-  - item: Ember & Glimmer
   - item: React
-  - item: Jekyll
-  - item: Node
-  - item: D3
-  - item: Wordpress
-  - item: Timber
+  - item: PowerApps Component Framework
 
 tools:
-  - item: Bash
   - item: Git & Github
   - item: Chrome DevTools
+  - item: Visual Studio
+  - item: Azure Data Explorer
+  - item: Microsoft Power BI
 
-design:
-  - item: Sketch
-  - item: InDesign
-  - item: InVision
-  - item: Prototyping
-  - item: Wireframing
-  - item: User Testing
+other:
+  - item: Linux
+  - item: Kernel Programming
+  - item: Microsoft Dynamics 365
+  - item: Cryptography
