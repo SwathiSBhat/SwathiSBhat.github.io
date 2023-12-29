@@ -19,10 +19,7 @@ frameworks:
 tools:
   - item: Bash
   - item: Git & Github
-  - item: Gulp & Grunt
   - item: Chrome DevTools
-  - item: Postman
-  - item: MongoDB
 
 design:
   - item: Sketch
