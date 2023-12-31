@@ -1,7 +1,7 @@
 # Site settings
 name: Swathi Bhat
 title: Swathi Bhat | Graduate student at UCSB
-description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
+description: 
 url: https://swathisbhat.github.io/
 baseurl: ''
 email: swathibhat282@gmail.com
@@ -11,16 +11,10 @@ resume: https://swathisbhat.github.io/resume.pdf
 social:
   - title: email
     url: mailto:swathibhat282@gmail.com
-  - title: twitter
-    url: https://twitter.com/bchiang7
-  - title: instagram
-    url: https://instagram.com/bchiang7
-  - title: codepen
-    url: http://codepen.io/bchiang7
   - title: github
     url: https://github.com/SwathiSBhat
   - title: linkedin
-    url: https://www.linkedin.com/in/bchiang7
+    url: https://www.linkedin.com/in/swathi-s-bhat-6180a3128
 
 # Build settings
 markdown: kramdown
