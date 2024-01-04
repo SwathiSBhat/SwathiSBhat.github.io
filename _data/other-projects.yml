@@ -10,7 +10,7 @@
 - name: ImgCrypt
   url: https://github.com/SwathiSBhat/ImgCrypt
   code: https://github.com/SwathiSBhat/ImgCrypt
-  description: Implemented a symmetric image encryption scheme based on the research paper <a class="underline-link" href="https://www.researchgate.net/publication/276231104_A_Secure_Symmetric_Image_Encryption_Based_on_Bit-wise_Operation">here</a>. The algorithm used a combination of substituion and transposition techniques using dynamic SBOX and TBOX.
+  description: Implemented a symmetric image encryption scheme based on the research paper <a class="underline-link" href="https://www.researchgate.net/publication/276231104_A_Secure_Symmetric_Image_Encryption_Based_on_Bit-wise_Operation">here</a>. The algorithm used a combination of substitution and transposition techniques using dynamic SBOX and TBOX.
   used:
     - thing: Python
     - thing: Symmetric Encryption
