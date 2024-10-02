@@ -10,7 +10,8 @@ frameworks:
   - item: PowerApps Component Framework
 
 tools:
-  - item: Git & Github
+  - item: Git
+  - item: Perforce
   - item: Chrome DevTools
   - item: Visual Studio
   - item: Azure Data Explorer
