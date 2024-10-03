@@ -1,6 +1,31 @@
 <section class="section featured-projects">
   <div class="section__title">Featured Projects</div>
   <div class="section__content">
+    {% for project in site.data.featured-projects %}
+    <div class="project">
+      <div class="project__name">
+        <a href="{{project.url}}" target="_blank" class="arrow-link">{{project.name}}</a>
+      </div>
+      <figure class="project__pic">
+        <a href="{{project.url}}" target="_blank">
+          <img src="{{site.baseurl}}/img/featured/altfilesystem/altfs2.png" alt="">
+        </a>
+      </figure>
+      <p>{{project.description}}</p>
+      <div class="project__used">
+        {% for item in project.used %}
+        <span class="project__used__item">{{item.thing}}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!--
+<section class="section featured-projects">
+  <div class="section__title">Featured Projects</div>
+  <div class="section__content">
 
     <div class="project altfilesystem">
       <figure class="project__pic">
@@ -35,9 +60,9 @@
       </figcaption>
     </div>
 
-    <div class="project programanalysis">
+    <div class="project logsmart">
       <figure class="project__pic">
-        <a href="https://github.com/SwathiSBhat/Static-program-analysis-techniques" target="_blank">
+        <a href="https://github.com/SwathiSBhat/LLMs-for-context-aware-network-log-analysis" target="_blank">
           <div class="phone">
             <img src="{{site.baseurl}}/img/featured/auction/auction1.png" alt="">
           </div>
@@ -45,8 +70,69 @@
       </figure>
       <figcaption class="project__caption">
         <div class="project__name">
-          <a href="https://github.com/SwathiSBhat/Static-program-analysis-techniques" target="_blank">Program Analysis</a>
+          <a href="https://github.com/SwathiSBhat/LLMs-for-context-aware-network-log-analysis" target="_blank">LogSmart</a>
+        </div>
+        <p>Innovative log analysis platform that uses LLMs to enhance contextual understanding of alerts and network security events.</p>
+      </figcaption>
+    </div>-->
+
+    <!--
+    <div class="project logsmart"></div>
+      <figure class="project__pic">
+        <a href="https://github.com/SwathiSBhat/LLMs-for-context-aware-network-log-analysis" target="_blank">
+          <img src="{{site.baseurl}}/img/featured/altfilesystem/altfs2.png" alt="">
+        </a>
+      </figure>
+      <figcaption class="project__caption">
+        <div class="project__name">
+          <a href="https://github.com/SwathiSBhat/LLMs-for-context-aware-network-log-analysis" target="_blank">LogSmart</a>
+        </div>
+        <p>Innovative log analysis platform that uses LLMs to enhance contextual understanding of alerts and network security events.</p>
+      </figcaption>
+    </div>
+
+    <div class="project programanalysis"></div>
+      <figure class="project__pic">
+        <a href="https://github.com/SwathiSBhat/Static-program-analysis-techniques" target="_blank">
+          <img src="{{site.baseurl}}/img/featured/altfilesystem/altfs2.png" alt="">
+        </a>
+      </figure>
+      <figcaption class="project__caption">
+        <div class="project__name">
+          <a href="https://github.com/SwathiSBhat/Static-program-analysis-techniques" target="_blank">Advanced program analysis</a>
         </div>
         <p>Implementation of advanced static analysis methodologies including data flow, control flow, program slicing, Andersen’s pointer analysis and taint analysis.</p>
       </figcaption>
     </div>
+
+    <div class="project auction">
+      <figure class="project__pic">
+        <a href="https://github.com/SwathiSBhat/Auction-Protocol-using-Garbled-Circuits" target="_blank">
+          <div class="phone">
+            <img src="{{site.baseurl}}/img/featured/auction/auction1.png" alt="">
+          </div>
+        </a>
+      </figure>
+      <figcaption class="project__caption">
+        <div class="project__name">
+          <a href="https://github.com/SwathiSBhat/Auction-Protocol-using-Garbled-Circuits" target="_blank">Secure Auction Protocol using Garbled Circuits and Verifiable Proxy Oblivious Transfer</a>
+        </div>
+        <p>A secure two server sealed bid auction protocol that uses verifiable proxy oblivious transfer and garbled circuits allowing the bids to be completely hidden.</p>
+      </figcaption>
+    </div>
+
+    <div class="project ThePulse">
+      <figure class="project__pic">
+        <a href="https://github.com/swatisbhat/ThePulse" target="_blank">
+          <img src="{{site.baseurl}}/img/featured/thepulse/ThePulse.png" alt="">
+        </a>
+      </figure>
+      <figcaption class="project__caption">
+        <div class="project__name">
+          <a href="https://github.com/swatisbhat/ThePulse" target="_blank">ThePulse</a>
+        </div>
+        <p>A commandline news reader tool built in Bash that displays news headlines with options to archive and display genre specific news</p>
+      </figcaption>
+    </div>-->
+  </div>
+</section>
