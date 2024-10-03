@@ -1,6 +1,31 @@
 <section class="section featured-projects">
   <div class="section__title">Featured Projects</div>
   <div class="section__content">
+    {% for project in site.data.other-projects %}
+    <div class="project">
+      <div class="project__name">
+        <a href="{{project.url}}" target="_blank" class="arrow-link">{{project.name}}</a>
+      </div>
+      <figure class="project__pic">
+        <a href="{{project.url}}" target="_blank">
+          <img src="{{site.baseurl}}/img/featured/altfilesystem/altfs2.png" alt="">
+        </a>
+      </figure>
+      <p>{{project.description}}</p>
+      <div class="project__used">
+        {% for item in project.used %}
+        <span class="project__used__item">{{item.thing}}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!--
+<section class="section featured-projects">
+  <div class="section__title">Featured Projects</div>
+  <div class="section__content">
 
     <div class="project altfilesystem">
       <figure class="project__pic">
@@ -49,7 +74,7 @@
         </div>
         <p>Innovative log analysis platform that uses LLMs to enhance contextual understanding of alerts and network security events.</p>
       </figcaption>
-    </div>
+    </div>-->
 
     <!--
     <div class="project logsmart"></div>

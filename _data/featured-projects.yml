@@ -1,0 +1,8 @@
+- name: AltFileSystem
+  url: https://github.com/swatisbhat/recSys
+  code: https://github.com/swatisbhat/recSys
+  description: A Flask-based book recommender application. The recommender supports search, retrieval, marking a to-read and favorites list. A comparison of the recommendation quality was made based on collaborative filtering methods detailed in the paper <a class="underline-link" href="https://www.researchgate.net/publication/221935859_Improving_an_Hybrid_Literary_Book_Recommendation_System_through_AuthorRanking">here</a>.
+  used:
+    - thing: Flask
+    - thing: Python
+    - thing: CSS
