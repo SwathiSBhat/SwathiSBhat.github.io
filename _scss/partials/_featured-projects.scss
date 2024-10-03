@@ -41,6 +41,7 @@
           &:first-of-type {
             margin-left: -5%;
           }
+          max-width: 500px;
         }
       }
       img {
@@ -50,7 +51,7 @@
       }
     }
     &__caption {
-      width: 125px;
+      width: 300px;
       flex-shrink: 0;
       margin-left: 30px;
       @include tablet {
