@@ -8,6 +8,7 @@ languages:
 frameworks:
   - item: React
   - item: PowerApps Component Framework
+  - item: REST APIs
 
 tools:
   - item: Git
@@ -22,3 +23,4 @@ other:
   - item: Kernel Programming
   - item: Microsoft Dynamics 365
   - item: Cryptography
+  - item: Distributed Systems

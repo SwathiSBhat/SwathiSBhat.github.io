@@ -1,29 +1,12 @@
-- name: RecSys
-  url: https://github.com/swatisbhat/recSys
-  code: https://github.com/swatisbhat/recSys
-  description: A Flask-based book recommender application. The recommender supports search, retrieval, marking a to-read and favorites list. A comparison of the recommendation quality was made based on collaborative filtering methods detailed in the paper <a class="underline-link" href="https://www.researchgate.net/publication/221935859_Improving_an_Hybrid_Literary_Book_Recommendation_System_through_AuthorRanking">here</a>.
+- name: Auction Protocol using Garbled Circuits and Verifiable Proxy Oblivious Transfer
+  url: https://github.com/SwathiSBhat/Auction-Protocol-using-Garbled-Circuits
+  code: https://github.com/SwathiSBhat/Auction-Protocol-using-Garbled-Circuits
+  description: A secure two server sealed bid auction protocol that uses verifiable proxy oblivious transfer and garbled circuits allowing the bids to be completely hidden.
   used:
-    - thing: Flask
-    - thing: Python
-    - thing: CSS
-
-- name: ImgCrypt
-  url: https://github.com/SwathiSBhat/ImgCrypt
-  code: https://github.com/SwathiSBhat/ImgCrypt
-  description: Implemented a symmetric image encryption scheme based on the research paper <a class="underline-link" href="https://www.researchgate.net/publication/276231104_A_Secure_Symmetric_Image_Encryption_Based_on_Bit-wise_Operation">here</a>. The algorithm used a combination of substitution and transposition techniques using dynamic SBOX and TBOX.
-  used:
-    - thing: Python
-    - thing: Symmetric Encryption
     - thing: Cryptography
-
-- name: Bees swarm optimization guided by data mining techniques for document information retrieval
-  url: https://github.com/swatisbhat/BSOGDM_IR
-  code: https://github.com/swatisbhat/BSOGDM_IR
-  description: Engineered a novel method for document information retrieval using bees swarm optimization guided by data mining techniques. The data mining techniques included document clustering and extraction of closed frequent itemsets using <a class="underline-link" href="https://www.researchgate.net/publication/44261957_Discovery_of_Frequent_Closed_Itemsets_using_Reduced_Pattern_Count_Tree">reduced-PCT (Pattern Count Tree)</a>. The resultant system had enhanced performance. <a class="underline-link" href="https://www.sciencedirect.com/science/article/abs/pii/S0957417417307248?via%3Dihub">Link to reference paper</a>.
-  used:
     - thing: Python
-    - thing: Data Mining
-    - thing: Information Retrieval
+    - thing: Cut and Choose
+    - thing: Yao's garbled circuits
 
 - name: K-Rack &#58 A metadata encrypted file system
   url: https://github.com/IEEE-NITK/K-rack
@@ -44,3 +27,37 @@
     - thing: Python
     - thing: Blockchain
     - thing: Cryptocurrency
+
+- name: Bees swarm optimization guided by data mining techniques for document information retrieval
+  url: https://github.com/swatisbhat/BSOGDM_IR
+  code: https://github.com/swatisbhat/BSOGDM_IR
+  description: Engineered a novel method for document information retrieval using bees swarm optimization guided by data mining techniques. The data mining techniques included document clustering and extraction of closed frequent itemsets using <a class="underline-link" href="https://www.researchgate.net/publication/44261957_Discovery_of_Frequent_Closed_Itemsets_using_Reduced_Pattern_Count_Tree">reduced-PCT (Pattern Count Tree)</a>. The resultant system had enhanced performance. <a class="underline-link" href="https://www.sciencedirect.com/science/article/abs/pii/S0957417417307248?via%3Dihub">Link to reference paper</a>.
+  used:
+    - thing: Python
+    - thing: Data Mining
+    - thing: Information Retrieval
+
+- name: ImgCrypt
+  url: https://github.com/SwathiSBhat/ImgCrypt
+  code: https://github.com/SwathiSBhat/ImgCrypt
+  description: Implemented a symmetric image encryption scheme based on the research paper <a class="underline-link" href="https://www.researchgate.net/publication/276231104_A_Secure_Symmetric_Image_Encryption_Based_on_Bit-wise_Operation">here</a>. The algorithm used a combination of substitution and transposition techniques using dynamic SBOX and TBOX.
+  used:
+    - thing: Python
+    - thing: Symmetric Encryption
+    - thing: Cryptography
+
+- name: RecSys
+  url: https://github.com/swatisbhat/recSys
+  code: https://github.com/swatisbhat/recSys
+  description: A Flask-based book recommender application. The recommender supports search, retrieval, marking a to-read and favorites list. A comparison of the recommendation quality was made based on collaborative filtering methods detailed in the paper <a class="underline-link" href="https://www.researchgate.net/publication/221935859_Improving_an_Hybrid_Literary_Book_Recommendation_System_through_AuthorRanking">here</a>.
+  used:
+    - thing: Flask
+    - thing: Python
+    - thing: CSS
+
+- name: ThePulse
+  url: https://github.com/swatisbhat/ThePulse
+  code: https://github.com/swatisbhat/ThePulse
+  description: A commandline news reader tool built in Bash that displays news headlines with options to archive and display genre specific news.
+  used:
+    - thing: Bash
